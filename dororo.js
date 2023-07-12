@@ -1,0 +1,1 @@
+console.log("Would you sacrifice anything, for your people?")
