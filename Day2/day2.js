@@ -65,7 +65,30 @@ I hope you are enjoying too."
 
 console.log(paragraph)
 
+console.log(Math.random()*31)
 
+let woe = Math.random()
+let rand1000 = woe * 1000
+let rand1000Floor = Math.floor(rand1000)
+console.log(rand1000, rand1000Floor)
 
+//concatenation of string using + is error prone
 
+/* Escape Sequences in Strings
+\n : new line
+\t: tab (8 spaces)
+\\ Back salsh
+\'
+\"
+*/
+console.log('I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?') // line break
+console.log('Days\tTopics\tExercises')
+console.log('Day 1\t3\t5')
+console.log('Day 2\t3\t5')
+console.log('Day 3\t3\t5')
+console.log('Day 4\t3\t5')
+console.log('This is a backslash  symbol (\\)') // To write a backslash
+console.log('In every programming language it starts with \"Hello, World!\"')
+console.log("In every programming language it starts with \'Hello, World!\'")
+console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 
